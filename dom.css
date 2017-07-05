@@ -1,0 +1,277 @@
+html {
+	background-color:black;
+	font-family: 'Slabo 27px', serif;
+}
+
+body {
+	background-color:white;
+	width: 1000px;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+	border:white 1px solid;
+	border-bottom: none;
+	
+	
+}
+
+h1 {
+	font-size:27px;
+	margin:2px;
+	
+}
+h2 {
+	font-size:20px;
+	margin:2px;
+	
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	padding-bottom:40px;
+	
+}
+
+ul {
+	font-size:16px;
+	margin-top:-25px;
+	padding-left:155px;
+	font-weight: bold;	
+	list-style-image: url('armchair_mini.png');
+	
+}
+
+th {
+	padding-right:25px;
+	font-size:18px;
+}
+
+td {
+	font-size:14px;
+}
+
+p {
+	padding:1px;
+	margin:1px;
+}
+
+#buy {
+    background-color: #F56207;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-top:5px;
+	
+}
+
+
+.disabled {    
+	opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.warning {
+	
+	color: white;	
+	margin-left: 190px;
+	padding-top: 5px;
+	
+}
+
+
+#pic {
+	width:150px;
+	height:222px;	
+	margin-right:15px;	
+	position:absolute;
+}
+
+#info {	
+	height:220px;
+	width:300px;
+	margin-left:160px;
+	padding-top: 10px;	
+	
+}
+
+#ticket {
+	width:250px;
+	height:212px;		
+	margin-left:750px;
+	margin-top:-230px;
+	border-left:solid 1px;
+	padding-top:10px;
+	padding-left:5px;
+}
+
+#bookingSummary {
+	width:170px;
+	height:212px;		
+	margin-left:550px;
+	margin-top:-224px;	
+	padding-top:12px;
+	
+	
+}
+
+#rating {
+	width:40px;
+	
+}
+
+#seatinfo {
+	
+	border-top:solid 1px black;	
+	background:black;
+	margin-bottom:-35px;
+	
+}
+
+#seatinfo td {
+	color:white;
+	text-align:center;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#seatinfo img{
+	width:25px;
+	height:25px;
+}
+
+#seatcount {
+	padding-top:15px;
+}
+#theatre {
+	margin-top:-2px;		
+	background: rgba(246,246,246,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(246,246,246,1) 0%, rgba(242,234,242,1) 18%, rgba(67,56,82,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(246,246,246,1)), color-stop(18%, rgba(242,234,242,1)), color-stop(100%, rgba(67,56,82,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(246,246,246,1) 0%, rgba(242,234,242,1) 18%, rgba(67,56,82,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(246,246,246,1) 0%, rgba(242,234,242,1) 18%, rgba(67,56,82,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(246,246,246,1) 0%, rgba(242,234,242,1) 18%, rgba(67,56,82,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(246,246,246,1) 0%, rgba(242,234,242,1) 18%, rgba(67,56,82,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#433852', GradientType=1 );		
+}
+
+#vaszon {
+	background:black;
+	color:white;
+	text-align:center;
+	margin-top:-2px;
+	margin-left:-2px;
+	margin-right:-2px;
+}
+
+#vaszon p {
+	border: 1px white solid; 
+	margin-left: auto;
+	margin-right:auto;
+	width:30%;
+	background:black;
+}
+
+#credit {
+	position:absolute;
+	left:450px;
+	background:black;
+	color:white;
+	padding-top:150px;
+	border:none;
+	
+}
+
+.taken {
+	cursor: not-allowed;
+}
+
+.free {
+	cursor: pointer;
+}
+
+.mine {
+	cursor: pointer;
+}
+
+.left-sofa.free{   
+  background:url(left_free.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:right;
+}
+.right-sofa.free{  
+  background:url(rigth_free.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:left;
+}
+.armchair.free{ 
+  background:url(armchair_free.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:center;
+}
+
+.left-sofa.mine{  
+  background:url(left_mine.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:right;
+}
+.right-sofa.mine{  
+  background:url(rigth_mine.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:left;
+}
+.armchair.mine{  
+  background:url(armchair_mine.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:center;
+}
+
+.left-sofa.taken{  
+  background:url(left_taken.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:right;
+}
+.right-sofa.taken{  
+  background:url(rigth_taken.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:left;
+}
+.armchair.taken{  
+  background:url(armchair_taken.png);
+  background-size:cover;
+  width:36px;
+  height:36px;
+  text-align:center;
+}
+
+.styled-select {
+   color:white;
+   height:25px;
+   overflow: hidden;
+   width:50px;
+   background-color: #000;
+   
+   
+}
+
+
